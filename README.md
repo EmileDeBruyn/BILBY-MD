@@ -15,7 +15,7 @@ The standard workflow is:
 4. use `run_analysis.sh` to compute RMSD, motif contact maps, and FES-based
    comparison metrics relative to the reference set
 
-![BILBY-md workflow](docs/images/bilby-pipeline.png)
+![BILBY-md workflow](docs/images/bilby-pipeline.jpeg)
 
 The repository is organized around three pieces of state:
 
