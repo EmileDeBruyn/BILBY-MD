@@ -1,0 +1,10 @@
+motif_pdbs
+motif_info.json
+simulations
+clean_folder.sh
+md_pipeline.log
+analysis_sys
+analysis_ref/update_inputs
+mpi-*
+failure_backbones/
+__pycache__/

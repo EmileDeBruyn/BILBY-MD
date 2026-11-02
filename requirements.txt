@@ -1,0 +1,6 @@
+MDAnalysis
+numpy
+pandas
+matplotlib
+scikit-learn
+deeptime
