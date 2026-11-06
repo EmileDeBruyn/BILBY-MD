@@ -1,10 +1,32 @@
 # BILBY-MD
 
-`BILBY-MD` is the molecular-dynamics validation layer for MotifBench
+`BILBY-MD` is a molecular-dynamics validation layer for MotifBench
 scaffold-design runs. Its main job is to take MotifBench evaluation output,
 select one scaffold per benchmark problem, prepare MD simulations for those
 scaffolds, and analyze the resulting trajectories against a precomputed
 reference pool in `analysis_ref/`.
+
+## BILBY: Benchmarking Interactions, Landscapes, Backbone fidelity, and dYnamics
+
+BILBY combines two complementary resources for evaluating generative protein-design methods:
+
+- **[BILBY-PRO](https://huggingface.co/datasets/HFMI-PROFOUND/BILBY-PRO)** — A systematically constructed benchmark containing 220 PROSITE-derived functional motif-scaffolding problems, together with benchmark-construction software, documentation, and provenance metadata.
+- **[BILBY-MD](https://github.com/PROFOUND-HFMI/BILBY-MD)** — A molecular dynamics simulation and analysis framework for evaluating structural stability, motif-contact preservation, and conformational ensemble agreement against reference systems.
+
+In our original study, BILBY-MD was applied to designs from the original MotifBench benchmark. BILBY-PRO was evaluated separately using the established static evaluation protocol.
+
+### Publication
+
+de Bruyn et al. (2026), *Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding*. Accepted at NeurIPS 2026, Evaluations & Datasets Track.
+
+- Paper: https://arxiv.org/abs/2611.07723
+- Paper DOI: https://doi.org/10.48550/arXiv.2611.07723
+- BILBY-PRO dataset DOI: https://doi.org/10.57967/hf/11443
+- PROFOUND Hugging Face organization: https://huggingface.co/HFMI-PROFOUND
+
+For the preferred citation, see [CITATION.cff](CITATION.cff).
+
+## Workflow
 
 The standard workflow is:
 

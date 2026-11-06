@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: >-
+  If you use BILBY-MD, please cite the associated
+  scientific publication listed under preferred-citation.
+title: "BILBY-MD: Dynamics-aware evaluation of protein motif scaffolding"
+type: software
+authors:
+  - family-names: Schäffler
+    given-names: Moritz
+url: https://github.com/PROFOUND-HFMI/BILBY-MD
+repository-code: https://github.com/PROFOUND-HFMI/BILBY-MD
+license: Apache-2.0
+
+preferred-citation:
+  type: generic
+  title: "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding"
+  authors:
+    - family-names: de Bruyn
+      given-names: Emile
+    - family-names: Schäffler
+      given-names: Moritz
+    - family-names: Schneider
+      given-names: Jannik
+    - family-names: Schmidt
+      given-names: Sebastian R.
+    - family-names: Hwang
+      given-names: Chanwoong
+    - family-names: Siji
+      given-names: Aleena
+    - family-names: Upadhyay
+      given-names: Utkarsh
+    - family-names: Bauer
+      given-names: Stefan
+    - family-names: Schug
+      given-names: Alexander
+    - family-names: Kesselheim
+      given-names: Stefan
+    - family-names: Yakimovich
+      given-names: Artur
+    - family-names: Bazarova
+      given-names: Alina
+  year: 2026
+  doi: 10.48550/arXiv.2611.07723
+  url: https://arxiv.org/abs/2611.07723
